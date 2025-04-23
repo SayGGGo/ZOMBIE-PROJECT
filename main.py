@@ -71,6 +71,13 @@ import pygame
 
 colorama.init()
 
+print("[ZOMBIE PROJECT] Проверка файлов игры...")
+if not check_file("ZOMBIE-PROJECT/README.md"):
+    print("[ZOMBIE PROJECT] Файлы игры не найдены, установка с GitHub...")
+    if os.path.isdir(""):
+        print("[ZOMBIE PROJECT] Найдена старая версия. Пожалуйста, удалите её.")
+    else:
+        subprocess.run("git clone https://github.com/SayGGGo/ZOMBIE-PROJECT.git")
 
 def start_menu():
     global display, steak_sound, god_status, inf_money
