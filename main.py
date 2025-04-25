@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 import sys
 import time
@@ -1156,7 +1155,7 @@ while running:
     clock.tick(dt)
 
 pygame.quit()
-=======
+
 import os
 import sys
 import time
@@ -2262,4 +2261,4 @@ while running:
     clock.tick(dt)
 
 pygame.quit()
->>>>>>> d13efc5a0f9bd76481cdae5365444f062df7201d
+
