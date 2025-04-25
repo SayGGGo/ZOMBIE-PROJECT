@@ -1,0 +1,27 @@
+{
+    "start": {
+        "text": "Там дальше опасно, не советую идти.",
+        "voice": "opasno1.ogg",
+        "choices": {
+            "Все равно пойду": "poidu",
+            "Ладно, не надо": "exit"
+        }
+    },
+    "poidu": {
+        "text": "Ну ладно, иди.",
+        "voice": "opasno2.ogg",
+        "choices": {
+            "Пошел": "save_exit"
+        }
+    },
+    "save_exit": {
+        "text": "Возвращайся!",
+        "voice": "dialog4.ogg",
+        "choices": {}
+    },
+    "exit": {
+        "text": "До встречи!",
+        "voice": "dialog5.ogg",
+        "choices": {}
+    }
+}
